@@ -1,10 +1,10 @@
 {
   "name": "todolist-using-mongodb",
   "version": "1.0.0",
-  "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
   },
   "author": "",
   "license": "ISC",
@@ -14,8 +14,17 @@
   "dependencies": {
     "body-parser": "^1.20.0",
     "ejs": "^3.1.8",
-    "express": "^4.18.1",
+    "express": "^4.18.2",
     "lodash": "^4.17.21",
     "mongoose": "^6.5.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ritwickoo1/todolist.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ritwickoo1/todolist/issues"
+  },
+  "homepage": "https://github.com/ritwickoo1/todolist#readme",
+  "description": ""
 }
